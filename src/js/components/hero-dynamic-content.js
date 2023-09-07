@@ -403,4 +403,8 @@ function findTwoBiggest(myArray) {
 	return myArray.sort((a, b) => b - a).slice(0, 2);
 }
 
+function hideBefore(dashboard) {
+	dashboard.querySelector(".hero__container-item").classList.add("hero__container-item-hidden");
+}
+
 drawNewDashboard();

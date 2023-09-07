@@ -8,12 +8,6 @@
 			padding: 20px 20px 30px 28px;
 			min-height: 270px;
 			position: relative;
-			// &-hidden {
-			// 	&::before {
-			// 		opacity: 0;
-			// 		visibility: hidden;
-			// 	}
-			// }
 			// &::before {
 			// 	content: "";
 			// 	position: absolute;
@@ -25,6 +19,12 @@
 			// 	visibility: visible;
 			// 	transition: visibility 0.3s ease, opacity 0.3s ease;
 			// 	filter: blur(2px);
+			// }
+			// &-hidden {
+			// 	&::before {
+			// 		opacity: 0;
+			// 		visibility: hidden;
+			// 	}
 			// }
 		}
 		&-buttons {
