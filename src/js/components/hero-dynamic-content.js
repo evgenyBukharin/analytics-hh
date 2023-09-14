@@ -377,7 +377,7 @@ function getAnalyticsData(dashboardId, requestPayload) {
 		vacanciesArr.push(vacancy.getAttribute("data-vacancy"));
 	});
 	axios
-		.get("http://localhost:3000/analyticsData", {
+		.post("http://localhost:3000/analyticsData", {
 			startDate: requestPayload.dates[0],
 			endDate: requestPayload.dates[1],
 			vacancies: vacanciesArr,
